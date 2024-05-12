@@ -60,7 +60,7 @@ export default function SignUp() {
           email: user.email,
           firstName: fname,
           lastName: lname,
-          phoneNumbr,PhoneNumbr,
+          // phoneNumbr,PhoneNumbr,
         //   photo:""
         });
       }
@@ -144,7 +144,7 @@ export default function SignUp() {
                   id="Phone number"
                   label="Phone number"
                   name="Phone number"
-                  onChange={(event) => setEmail(event.target.value)}
+                  // onChange={(event) => setEmail(event.target.value)}
                   autoComplete="Phone number"
                 />
               </Grid>
@@ -174,6 +174,7 @@ export default function SignUp() {
               sx={{ mt: 3, mb: 2 }}
             >
               Sign Up
+             {/* <RouterLink to='/App'>Sign Up</RouterLink>  */}
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
