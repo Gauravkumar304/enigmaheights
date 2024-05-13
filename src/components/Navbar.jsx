@@ -35,6 +35,9 @@ const Navbar = () => {
 <li className="nav-item">
     <a href="#Contact" className="nav-link">Contact</a>
   </li>
+
+
+  
   {/* <button className='btn btn' type='submit'>Login</button>
       <button className='btn btn' type='submit'>Signup</button> */}
 {/* 

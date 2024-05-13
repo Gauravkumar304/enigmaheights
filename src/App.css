@@ -25,19 +25,7 @@
     font-family: sans-serif; 
   }
 
-  .background-video{
-    background-size: cover;
-    background-position: center;
-    /* Ensure the background covers the entire viewport */
-    position: fixed;
-    /* padding-top: 1rem; */
-    left: 0;
-    /* top: 0; */
-    width: 100%;
-    height: auto;
-    z-index: -1;
 
-  }
 
 
 /* Navbar.css */
@@ -94,6 +82,20 @@
   width: 100%;
   height: 100%;
 }
+.background-video{
+  background-size: cover;
+  background-position: center;
+  /* Ensure the background covers the entire viewport */
+  position: fixed;
+  /* padding-top: 1rem; */
+  left: 0;
+  /* top: 0; */
+  width: 100%;
+  height: auto;
+  z-index: -1;
+
+}
+
   .main{
     color: rgb(245, 241, 241);
     /* padding-top: 5%; */
@@ -647,4 +649,14 @@ button:hover {
 }
 .icon.linkedin:hover {
   color: #0077b5; /* Change color on hover */
+}
+
+@media screen and (min-width:480px){
+  .Home{
+
+  
+  }
+  
+
+ 
 }
