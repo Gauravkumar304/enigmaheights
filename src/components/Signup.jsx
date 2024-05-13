@@ -60,7 +60,7 @@ export default function SignUp() {
           email: user.email,
           firstName: fname,
           lastName: lname,
-          // phoneNumbr,PhoneNumbr,
+        
         //   photo:""
         });
       }
@@ -135,17 +135,6 @@ export default function SignUp() {
                   name="email"
                   onChange={(event) => setEmail(event.target.value)}
                   autoComplete="email"
-                />
-              </Grid>
-              <Grid item xs={12}>
-                <TextField
-                  required
-                  fullWidth
-                  id="Phone number"
-                  label="Phone number"
-                  name="Phone number"
-                  // onChange={(event) => setEmail(event.target.value)}
-                  autoComplete="Phone number"
                 />
               </Grid>
               <Grid item xs={12}>

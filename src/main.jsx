@@ -16,7 +16,7 @@ import Home from './components/Home.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />
+    element: <App/>
   },
   {
     path:'/home',
