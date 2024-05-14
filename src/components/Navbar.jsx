@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       
-<nav className="navbar">
+<div className="navbar">
 <ul className="navbar-nav">
 
 <img src={Logo} alt='logo'/>
@@ -72,7 +72,7 @@ const Navbar = () => {
 </ul>
 
 
-</nav>  
+</div>  
 
       
     </div>

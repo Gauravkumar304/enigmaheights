@@ -20,7 +20,7 @@ const About = () => {
           < div className="abt-contain">
           <img src={about} alt="About us " />
           <div className="abth">
-            <h2>Innovaive Approach</h2>
+            <h2>Innovative Approach</h2>
             <p>
               We combine creativity and data to craft unique digital strategies.
             </p>

@@ -21,10 +21,7 @@ const Portfolio = () => {
 
     <div className="container">
    
-      {/* <div className="item1" >
-      {/* <h1>Our Work PortFolio</h1> */}
-        
-      {/* </div> */} 
+
       <div className="item">
         <img src={portfolio} alt="" />
       </div>

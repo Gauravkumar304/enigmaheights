@@ -6,7 +6,7 @@ const Services = () => {
        <div className='service' id='Services'>
         <h1>Our Services</h1>
         </div>
-        <div>
+    
         <div className='ser'>
 
             <div className='serv'>
@@ -43,7 +43,7 @@ const Services = () => {
                 <p>Gain valuable insights into your digital marketing efforts with detailed analytics and performance reports, allowing for continuous optimization and improvement.</p>
             </div>
           </div>
-          </div>
+          
     </div>
   )
 }

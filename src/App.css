@@ -240,7 +240,7 @@ min-height: 100vh;
     position: relative;
     color: #f5f2f2;
     justify-content: space-around;
-    /* z-index: -1; */
+    z-index: -1;
   }
 
 }
@@ -304,8 +304,8 @@ img{
 .ser{
   /* display: flex;
   justify-content: space-around; */
-  display: flex;
-  /* justify-content: space-around; */
+  display: flex; 
+  justify-content: space-around;
   padding: 1%;
   /* padding-left: 10%; */
   justify-content: space-around;
@@ -466,23 +466,15 @@ img{
 
 
       .container {
-        /* text-align: center;
-        padding-top: 100px;
-        color: #f2ecec; */
-        /* background-color: #bc2a8d; */
-        /* align-items: end; */
+
         height: 700px;
-        /* width: 900px; */
+
         display: grid;
-        /* grid-template-rows:133px 133px 133px;
-        grid-template-columns: 133px 133px 133px; */
         grid-template-columns: 1fr 1fr 1fr ;
         grid-template-rows: 1fr 1fr 1fr;
         row-gap: 20px;
         column-gap: 70px;
 
-       /*  grid-template-columns: 1fr auto; Two columns, first column takes up remaining space
-        gap: 20px; Gap between the two columns */
       }
       .item{
         padding: 3rem;
@@ -505,10 +497,7 @@ img{
         }
 
       }
-      /* .item1{
-        grid-column-start: 1;
-        grid-column-end: 4;
-      } */
+
 
 
   .team{
@@ -651,12 +640,176 @@ button:hover {
   color: #0077b5; /* Change color on hover */
 }
 
-@media screen and (min-width:480px){
-  .Home{
+@media only screen and (max-width:480px){
+  /* .navbar{
+    width: 600px;
+    
+  }
+   .navbar-nav {
+    flex-direction: row;
+    align-items: center;
+  } */
 
+  /* .navbar-nav img {
+    width:100px;
+    height: 20px;
+    margin-bottom: 15px; 
+  } */
+
+  /* .nav-item {
+    margin-right: 20px; 
+    
+  } */
+
+  /* .nav-link {
+    font-size: 94%; 
+  } */
+
+}
+
+
+@media only screen and (max-width: 480px){
+
+  .main{
+    font-size: 150%;
+    text-align: center;
+    width: 600px;
   
+
+    
   }
   
+  .main img {
+    width: 600px; /* Adjust image size for smaller screens */
+    height: 500px;
+  }
+  
+  .btn {
+    font-size: 100%; /* Adjust button font size for smaller screens */
+
+  }
+
+  .button{
+    width: 600px;
+  }
+  .background-video{
+    width: auto;
+    height: auto;
+
+  }
+
+
+/* About page */
+.abt{
+  width: 600px;
+}
+
+  .abt-container,
+  .abt-contain {
+    flex-direction: column; /* Change to column layout on small screens */
+    align-items: center; /*Center items horizontally */
+    padding: 10px;
+    width: 600px;
+
+   
+  }
+
+
+  img {
+    width: 100%; /* Make the image take full width on small screens */
+    max-width: none; /* Remove the maximum width restriction */
+  }
+
+
+
+
+    /* service  */
+    .service{
+      width: 500px;
+    }
+.ser,
+.serv{
+  flex-direction: column; /* Change to column layout on small screens */
+  align-items: center;
+  width: 600px;
+}
+
+
+
+/* Testimonials */
+.testi{
+  width: 600px;
+
+}
+.h1{
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+
+
+  /* portfolio  */
+  
+  .portfolio {
+    h1 {
+      text-align: center;
+      padding-top: 100px;
+      color: #f2ecec;
+      width: 600px;
+    }
+  }
+  
+  .container {
+    /* Keep the original styles */
+    height: auto; /* Change height to auto to allow content to expand */
+    display: grid;
+    grid-template-columns: 1fr; /* Change to a single column layout on small screens */
+    row-gap: 20px;
+    /* width: 600px; */
+    width: 500px;
+  }
+  
+  .item {
+    padding: 2rem; /* Reduce padding on small screens */
+    height: auto; /* Change height to auto to allow content to expand */
+    width: 100%; /* Make the item take full width on small screens */
+    color: white;
+  }
+  
+  .item img {
+    width: 100%; /* Make the image take full width of its container */
+    height: auto; /* Allow image to adjust its height */
+  }
+  
+  .item h3 {
+    font-size: 16px; /* Adjust font size for better readability on small screens */
+    /* padding-top: 20px; Reduce padding on small screens */
+  
+  }
+ 
+
+
+  /* Team */
+  .team{
+    width: 600px;
+    
+
+  }
+   .tea,.team1{
+    width: 400px;
+    align-items: center;
+    margin-left: 150px;
+   }
+
+
+
+   .cont{
+    width: 500px;
+    margin-left: 50px;
+   }
+
+
 
  
 }
