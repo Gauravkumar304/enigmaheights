@@ -89,8 +89,8 @@
   padding-top: 1rem;
   left: 0;
   top: 0;
-  width: 100%;
-  height: auto;
+  width: 105%;
+  /* height: auto; */
   z-index: -1;
 
 }
@@ -107,6 +107,7 @@
   }
   .button{
     margin-right: 10px;
+    padding: 30px;
 
   .btn{
     margin-right: 20px;
@@ -220,6 +221,7 @@ img{
   .serv{
     display: flex;
     width: 100%;
+    text-align: center;
        
       /* flex-direction: row; */
       flex-wrap: wrap;
@@ -601,8 +603,8 @@ button:hover {
     padding: 20px;
   }
   .background-video{
-    /* width: auto; */
-    height:max-content;
+    width: 120%;
+    height:auto;
 
   }
 
