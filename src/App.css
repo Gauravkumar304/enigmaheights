@@ -85,11 +85,10 @@
 .background-video{
   background-size: cover;
   background-position: center;
-  /* Ensure the background covers the entire viewport */
   position: fixed;
-  /* padding-top: 1rem; */
+  padding-top: 1rem;
   left: 0;
-  /* top: 0; */
+  top: 0;
   width: 100%;
   height: auto;
   z-index: -1;
@@ -124,102 +123,6 @@
 }
 
 
-/* .login-container {
-  background-color: #2f2f2f;
-  border-radius: 8px;
-  box-shadow: rgb(31 31 31 / 17%) 0px -23px 25px 0px inset,
-    rgb(108 108 108 / 23%) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  padding: 40px;
-  max-width: 400px;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  z-index: 2; 
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.heading {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 40px;
-  margin-bottom: 5px;
-}
-
-.paragraph {
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 15px;
-  margin-bottom: 15px;
-}
-
-.input-group {
-  margin-bottom: 20px;
-}
-
-.input-group input {
-  background: none;
-  border: 1px solid #353535;
-  padding: 15px 23px;
-  font-size: 16px;
-  border-radius: 8px;
-  color: #979797;
-  width: 100%;
-  box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,
-    rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-.input-group input:focus {
-  border-color: #0173ed;
-  outline: none;
-}
-
-button {
-  padding: 15px;
-  border: none;
-  border-radius: 8px;
-  background-color: #0173ed;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #0173ed;
-}
-
-.bottom-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
-}
-
-.bottom-text a {
-  color: #0173ed;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.bottom-text a:hover {
-  color: #3f95f2;
-}
- */
-
 .About{
 min-height: 100vh;
 
@@ -227,15 +130,12 @@ min-height: 100vh;
   display: flex;
   justify-content: space-around;
   color: #f2ecec;
+  padding-bottom: 15px;
   .abthc{
-    /* width: 300px; */
-    /* height: 200px; */
-    /* flex-wrap: wrap; */
-    /* gap: 20px; */
+    width: 80rem;
     overflow: hidden;
     box-shadow: 0px 2px 2px 2px;
     border-radius: 6px;
-    /* border: 1px solid #f5f2f2; */
     padding: 10px;
     position: relative;
     color: #f5f2f2;
@@ -283,7 +183,7 @@ img{
       box-shadow: 0px 2px 2px 2px;
       border-radius: 6px;
       /* border: 1px solid #f5f2f2; */
-    
+      text-align: center;
       padding: 10px;
       position: relative;
       color: #f5f2f2;
@@ -502,7 +402,7 @@ img{
 
   .team{
     text-align: center;
-    padding-top: 200px;
+    padding: 75px;
     color: #f2ecec;
   }
   .tea{
@@ -513,12 +413,14 @@ img{
   }
     .team1{
       margin: 20px auto;
-      margin-left: 30px;
+      margin-left: 35px;
+      /* margin-right: 0; */
       width: 300px;
       display: inline-block;
       justify-content: space-around;
       padding-right: 10%;
       color: #f2ecec;
+      
     }
     .team1 img{
       border-radius: 20rem;

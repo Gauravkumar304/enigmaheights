@@ -9,11 +9,11 @@
     "preview": "vite preview",
     "dev": "vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
-    
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@formspree/react": "^2.5.1",
     "@mui/icons-material": "^5.15.16",
     "@mui/material": "^5.15.16",
     "firebase": "^10.11.1",
