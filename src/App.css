@@ -131,12 +131,15 @@ min-height: 100vh;
   justify-content: space-around;
   color: #f2ecec;
   padding-bottom: 15px;
+ 
   .abthc{
     width: 80rem;
+ 
     overflow: hidden;
     box-shadow: 0px 2px 2px 2px;
     border-radius: 6px;
     padding: 10px;
+    /* text-align: center; */
     position: relative;
     color: #f5f2f2;
     justify-content: space-around;
@@ -184,6 +187,7 @@ img{
       border-radius: 6px;
       /* border: 1px solid #f5f2f2; */
       text-align: center;
+    
       padding: 10px;
       position: relative;
       color: #f5f2f2;
@@ -546,7 +550,8 @@ button:hover {
   /* .navbar{
     width: 600px;
     
-  }
+   }  
+   
    .navbar-nav {
     flex-direction: row;
     align-items: center;
@@ -575,14 +580,14 @@ button:hover {
   .main{
     font-size: 150%;
     text-align: center;
-    width: 600px;
+    width: 700px;
   
 
     
   }
   
   .main img {
-    width: 600px; /* Adjust image size for smaller screens */
+    width: 700px; /* Adjust image size for smaller screens */
     height: 500px;
   }
   
@@ -592,10 +597,11 @@ button:hover {
   }
 
   .button{
-    width: 600px;
+    width: 700px;
+    padding: 20px;
   }
   .background-video{
-    width: auto;
+    /* width: auto; */
     height: auto;
 
   }
@@ -603,15 +609,26 @@ button:hover {
 
 /* About page */
 .abt{
-  width: 600px;
+  width: 700px;
 }
 
-  .abt-container,
-  .abt-contain {
+.abthc{
+  width: 700px;
+}
+.abt-container, .abthc{
+  width: 650px;
+  align-items: center;
+  text-align: center;
+  margin-left: 30px;
+}
+
+  .abt-contain,
+  .abth {
     flex-direction: column; /* Change to column layout on small screens */
     align-items: center; /*Center items horizontally */
     padding: 10px;
-    width: 600px;
+    width: 700px;
+   
 
    
   }
@@ -627,20 +644,20 @@ button:hover {
 
     /* service  */
     .service{
-      width: 500px;
+      width: 600px;
     }
 .ser,
 .serv{
   flex-direction: column; /* Change to column layout on small screens */
   align-items: center;
-  width: 600px;
+  width: 700px;
 }
 
 
 
 /* Testimonials */
 .testi{
-  width: 600px;
+  width: 700px;
 
 }
 .h1{
@@ -658,7 +675,7 @@ button:hover {
       text-align: center;
       padding-top: 100px;
       color: #f2ecec;
-      width: 600px;
+      width: 700px;
     }
   }
   
@@ -669,7 +686,9 @@ button:hover {
     grid-template-columns: 1fr; /* Change to a single column layout on small screens */
     row-gap: 20px;
     /* width: 600px; */
-    width: 500px;
+    /* align-items: center; */
+    margin-left: 20px;
+    width: 600px;
   }
   
   .item {
@@ -694,6 +713,7 @@ button:hover {
 
   /* Team */
   .team{
+
     width: 600px;
     
 
@@ -701,7 +721,8 @@ button:hover {
    .tea,.team1{
     width: 400px;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 200px;
+    padding: 2px;
    }
 
 
@@ -712,6 +733,4 @@ button:hover {
    }
 
 
-
- 
 }
