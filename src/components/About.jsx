@@ -18,7 +18,7 @@ const About = () => {
        
         
           < div className="abt-contain">
-          <img src={about} alt="About us " />
+          <img src={about} alt="About " />
 
           <div className="abth">
             <h2>Innovative Approach</h2>
